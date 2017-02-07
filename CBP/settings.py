@@ -25,7 +25,11 @@ SECRET_KEY = '3q2#ly1fk=wb0scwe5uhb7cb=jg7e-y+b8woxenlm)u0oquo_&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+
+    '.lokigadfly.com',
+
+]
 
 
 # Application definition
